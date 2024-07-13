@@ -336,7 +336,7 @@ li {
 }
 .hobby {
     position: absolute;
-    margin-left: 50%;
+    margin-left: calc(850vw*var(--wid)/1016/100);
     margin-top: calc(-230vw*var(--wid)/1016/100);
     text-align: left;
 }
