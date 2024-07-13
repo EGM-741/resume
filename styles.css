@@ -20,6 +20,7 @@ body {
 .card {
     background-color: #D1E8E5;
     margin-left: calc(108vw*100/var(--wid));
+    margin-right: calc(1500vw*100/var(--wid));
     width: 200vw;
     padding-top: calc(165vw*100/var(--wid));
     text-align: center;
@@ -204,11 +205,11 @@ h5 {
     vertical-align: middle;
 }
 .resume {
-    margin-left: calc(260vw*100/var(--wid));
-    margin-right: calc(135vw*100/var(--wid));
+    margin-left: calc(1350vw*100/var(--wid));
+    margin-right: calc(140vw*100/var(--wid));
     text-align: center;
     overflow: auto;
-    position: static;
+    position: absolute;
     padding-top: calc(215vw*100/var(--wid));
     padding-bottom: calc(215vw*100/var(--wid));
 }
@@ -221,13 +222,14 @@ h5 {
     background-image: url(icons/person.png);
 }
 h6 {
-    font-size: calc(54vw*var(--wid)/1016/100);
+    font-size: calc(55vw*var(--wid)/1016/100);
     font-family: Raleway;
     font-weight: normal;
+    margin: 0%;
     margin-bottom: calc(144vw*50 /var(--wid));
     letter-spacing: calc(-1vw*var(--wid)/1016/100);
     text-align: justify;
-    line-height: 166%;
+    line-height: 170%;
 }
 .aboutme hr, .jobexerience hr, .skills hr {
     margin: 0%;
