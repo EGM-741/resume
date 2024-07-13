@@ -1,0 +1,348 @@
+body {
+    --wid: 2769;
+    width: 2769vw/var(--wid);
+    height: 3900vw/var(--wid);
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.body {
+    border-top: calc(42vw * 100 / var(--wid));
+    border-left: calc(40vw * 100 / var(--wid));
+    border-right: calc(42vw * 100 / var(--wid));
+    border-bottom: calc(35vw * 100 / var(--wid));
+    border-color: #01A596;
+    border-style: solid;
+    position: relative;
+    display: flex;
+}
+.card {
+    background-color: #D1E8E5;
+    margin-left: calc(108vw*100/var(--wid));
+    width: 200vw;
+    padding-top: calc(165vw*100/var(--wid));
+    text-align: center;
+    overflow: auto;
+    position: static;
+    padding-bottom: calc(215vw*100/var(--wid));
+}
+#name {
+    font-size: calc(194vw*var(--wid)/1100/100);
+    font-family: Prompt;
+    font-weight: 900;
+    margin-bottom: 0px;
+    letter-spacing: calc(-7vw*var(--wid)/1016/100);
+}
+#profession {
+    margin-top: calc(41vw*10 /var(--wid));
+    font-size: calc(61vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: normal;
+    letter-spacing: calc(11vw*var(--wid)/1016/100);
+}
+.image_place {
+    --wid_photo: calc(750vw*80 /var(--wid));
+    --wid_pad: calc(20vw*100 /var(--wid));
+    display: block;
+    position: relative;
+    padding: var(--wid_pad);
+    margin: calc(50% - var(--wid_photo)/1.9 - var(--wid_pad));
+    margin-top: calc(146vw*100 /var(--wid));
+    margin-bottom: calc(166vw*100 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    border-width: 0px;
+    border-radius: 100%;
+    background-color: white;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/ph.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#contact {
+    --wid_photo: calc(115vw*50 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    background-color: #02A598;
+    margin: 0%;
+    display: inline-grid;
+    vertical-align: middle;
+    margin-right: calc(35vw*50 /var(--wid));
+    margin-bottom: calc(45vw*50 /var(--wid));
+} 
+.photo#contact {
+    background-image: url(icons/person.png);
+}
+h1 {
+    display: inline-grid;
+    margin: 0%;
+    font-size: calc(94vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+#phone {
+    background-image: url(icons/phone.png);
+    margin-bottom: calc(15vw*100 /var(--wid));
+}
+.image_place#phone {
+    --wid_photo: calc(43vw*100 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    background-color: rgba(0,0,0,0);
+    margin: 0%;
+    border: none;
+    display: inline-grid;
+    vertical-align: middle;
+    margin-right: calc(35vw*50 /var(--wid));
+    padding: 0%;
+}
+.image_place#internet {
+    padding: 0%;
+    --wid_photo: calc(43vw*100 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    background-color: rgba(0,0,0,0);
+    margin: 0%;
+    border: none;
+    display: inline-grid;
+    vertical-align: middle;
+}
+.image_place#address {
+    padding: 0%;
+    --wid_photo: calc(70vw*100 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    background-color: rgba(0,0,0,0);
+    margin: 0%;
+    border: none;
+    display: inline-grid;
+    vertical-align: middle;
+}
+h3 {
+    display: inline-grid;
+    margin: 0%;
+    font-size: calc(56vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: normal;
+    margin-bottom: calc(-40vw*var(--wid)/1016/100);
+    color: #91a1a0;
+    letter-spacing: calc(-2vw*var(--wid)/1016/100);
+}
+#internet {
+    background-image: url(icons/internet.png);
+    transform: rotate(-16deg);
+}
+#address {
+    background-image: url(icons/marker.png);
+}
+hr {
+    border-top: calc(4vw*100*var(--wid)/1016/10);
+    border-color: black;
+    margin-left: calc(158vw*1.7*var(--wid)/1016/100);
+    margin-right: calc(158vw*1.7*var(--wid)/1016/100);
+    margin-top: calc(110vw*var(--wid)/1016/100);
+    margin-bottom: calc(108vw*var(--wid)/1016/100);
+}
+.image_place#education {
+    --wid_photo: calc(115vw*50 /var(--wid));
+    width: var(--wid_photo);
+    height: var(--wid_photo);
+    background-color: #02A598;
+    margin: 0%;
+    display: inline-grid;
+    vertical-align: middle;
+    margin-right: calc(35vw*50 /var(--wid));
+    margin-bottom: calc(45vw*100 /var(--wid));
+}
+#education {
+    background-image: url(icons/edu.png);
+}
+h2 {
+    display: inline-grid;
+    margin: 0%;
+    font-size: calc(60vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: 900;
+    margin-bottom: calc(25vw*100 /var(--wid));
+    letter-spacing: calc(2vw*var(--wid)/1016/100);
+}
+h4 {
+    margin: 0%;
+    font-size: calc(48vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: normal;
+    margin-bottom: calc(14vw*100 /var(--wid));
+    letter-spacing: calc(-2vw*var(--wid)/1016/100);
+}
+h5 {
+    margin: 0%;
+    font-size: calc(54vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: normal;
+    margin-bottom: calc(53vw*100 /var(--wid));
+    letter-spacing: calc(-1vw*var(--wid)/1016/100);
+}
+.vr {
+    position: absolute;
+    display: block flex;
+    margin-left: 45vw;
+    height: 100%;
+    width: calc(1vw*1*var(--wid)/1016/10);
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background-color: black;
+    display: inline-grid;
+    vertical-align: middle;
+}
+.resume {
+    margin-left: calc(260vw*100/var(--wid));
+    margin-right: calc(135vw*100/var(--wid));
+    text-align: center;
+    overflow: auto;
+    position: static;
+    padding-top: calc(215vw*100/var(--wid));
+    padding-bottom: calc(215vw*100/var(--wid));
+}
+.aboutme, .jobexerience, .skills {
+    position: relative;
+    text-align: left;
+    font-weight: 900;
+}
+.photo#aboutme {
+    background-image: url(icons/person.png);
+}
+h6 {
+    font-size: calc(54vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: normal;
+    margin-bottom: calc(144vw*50 /var(--wid));
+    letter-spacing: calc(-1vw*var(--wid)/1016/100);
+    text-align: justify;
+    line-height: 166%;
+}
+.aboutme hr, .jobexerience hr, .skills hr {
+    margin: 0%;
+    margin-bottom: calc(115vw*75 /var(--wid));
+}
+.jobexerience #education, .jobexerience h1 {
+    margin-bottom: calc(70vw*50 /var(--wid));
+}
+.head {
+    margin-bottom: calc(40vw*100 /var(--wid));
+}
+.jobexp {
+    position: relative;
+    margin-bottom: calc(80vw*70 /var(--wid));
+}
+    .jobexp h2 {
+        margin-bottom: calc(15vw*100 /var(--wid));
+    }
+    .jobexp h3 {
+        color: black;
+    }
+    .jobexp h4 {
+        text-align: right;
+        font-weight: bold;
+        font-size: calc(52vw*var(--wid)/1016/100);
+        position: absolute;
+        margin-top: calc(-62vw*2*var(--wid)/1016/100);
+        margin-left: calc(1050vw*var(--wid)/1016/100);
+    }
+    .jobexp h6 {
+        font-size: calc(50vw*var(--wid)/1016/100);
+        line-height: 160%;
+        margin-top: calc(110vw*var(--wid)/1016/100);
+        margin-bottom: 0%;
+    }
+#ref {
+    background-image: url(icons/people.png);
+}
+#jobexp {
+    background-image: url(icons/breafcase.png);
+}
+.skills .photo {
+    background-image: url("icons/circ diagram.png");
+    transform: rotate(-37deg);
+}
+.skills h3 {
+    color: black;
+    font-size: calc(40vw*var(--wid)/1016/100);
+}
+.skills #skill.image_place {
+    border: none;
+    width: calc(226vw*100/1.2 /var(--wid));
+    height: calc(23vw*100/1.2 /var(--wid));
+    background-color: none;
+    margin: 0%;
+    display: inline-grid;
+    vertical-align: middle;
+    margin-bottom: calc(0vw*100 /var(--wid));
+}
+#skillpoint {
+    background-image: url("icons/skill points.png");
+    transform: rotate(0deg);
+}
+.bot {
+    position: relative;
+    width: 100%;
+}
+table {
+    padding: 0%;
+    table-layout: fixed;
+    margin-bottom: calc(80vw*var(--wid)/1016/100);
+}
+tr {
+    margin: 0%;
+    padding: 0%;
+    height: calc(30vw*100 /var(--wid));
+    text-align: left;
+}
+td {
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: calc(45vw*var(--wid)/1016/100);
+    vertical-align: middle;
+}
+    td#label {
+        width: calc(355vw*var(--wid)/1016/100);
+    }
+    td#sp {
+        width: contain;
+    }
+#lang.photo {
+    background-image: url("icons/earth1.png");
+}
+ul {
+    list-style: url("icons/point.png") inside;
+    font-size: calc(55vw*var(--wid)/1016/100);
+    font-family: Raleway;
+    font-weight: 900;
+    margin: 0%;
+    padding: 0%;
+    columns: 2;
+    float: left;
+}
+li {
+    margin-bottom: calc(60vw*var(--wid)/1016/100);
+}
+.hobby {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: calc(-230vw*var(--wid)/1016/100);
+    text-align: left;
+}
+    .hobby ul {
+        columns: 1;
+    }
+    #hobby {
+        background-image: url("icons/flag.png");
+    }
