@@ -146,7 +146,7 @@ h3 {
     background-image: url(icons/marker.png);
 }
 hr {
-    border-top: calc(4vw*100*var(--wid)/1016/10);
+    border-width: calc(4vw*var(--wid)/1016/100);
     border-color: black;
     margin-left: calc(158vw*1.7*var(--wid)/1016/100);
     margin-right: calc(158vw*1.7*var(--wid)/1016/100);
@@ -225,7 +225,7 @@ h5 {
     background-image: url(icons/person.png);
 }
 h6 {
-    font-size: calc(420vw/6*var(--wid)/1254/100);
+    font-size: calc(415vw/6*var(--wid)/1254/100);
     font-family: Raleway;
     font-weight: normal;
     margin: 0%;
