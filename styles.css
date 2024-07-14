@@ -254,19 +254,24 @@ h6 {
     .jobexp h2 {
         margin-bottom: calc(15vw*100 /var(--wid));
     }
+
     .jobexp h3 {
         color: black;
     }
+
     .jobexp h4 {
         text-align: right;
         font-weight: bold;
         font-size: calc(52vw*var(--wid)/1254/100);
         position: absolute;
-        margin-top: calc(-62vw*2*var(--wid)/1254/100);
-        margin-left: calc(1050vw*var(--wid)/1254/100);
+        margin-top: calc(-70vw*2*var(--wid)/1254/100);
+        margin-left: calc(1600vw*var(--wid)/1254/100);
     }
+        #h4 {
+            margin-left: calc(1550vw*var(--wid)/1254/100);
+        }
     .jobexp h6 {
-        font-size: calc(128vw/1.6/2*var(--wid)/1254/100);
+        font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
         line-height: 160%;
         margin-top: calc(118vw*var(--wid)/1254/100);
         margin-bottom: 0%;
