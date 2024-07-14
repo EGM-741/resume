@@ -266,7 +266,7 @@ h6 {
     position: absolute;
     margin-top: calc(-50vw*var(--wid)/1254/100);
 }
-    .jobexp h4 {
+    .jobexp #h4 h4 {
         font-weight: bold;
         font-size: calc(70vw*var(--wid)/1254/100);
         letter-spacing: calc(2vw*var(--wid)/1254/100);
