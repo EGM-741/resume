@@ -269,7 +269,7 @@ h6 {
         letter-spacing: calc(2vw*var(--wid)/1254/100);
     }
         #h4 {
-            margin-left: calc(1300vw*var(--wid)/1254/100);
+            margin-left: calc(1250vw*var(--wid)/1254/100);
         }
     .jobexp h6 {
         font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
