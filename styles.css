@@ -258,13 +258,13 @@ h6 {
     .jobexp h3 {
         color: black;
     }
-div #h4 {
+#h4 {
     position: relative;
     text-align: right;
 }
 .job {
     position: absolute;
-    margin-top: calc(-110vw*var(--wid)/1254/100);
+    margin-top: calc(-70vw*var(--wid)/1254/100);
 }
     .jobexp h4 {
         font-weight: bold;
