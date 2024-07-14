@@ -266,7 +266,7 @@ h6 {
         margin-left: calc(1050vw*var(--wid)/1254/100);
     }
     .jobexp h6 {
-        font-size: calc(95vw/2*var(--wid)/1254/100);
+        font-size: calc(5vw/2*var(--wid)/1254/100);
         line-height: 160%;
         margin-top: calc(118vw*var(--wid)/1254/100);
         margin-bottom: 0%;
