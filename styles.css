@@ -265,11 +265,11 @@ h6 {
         font-size: calc(70vw*var(--wid)/1254/100);
         position: absolute;
         margin-top: calc(-70vw*2*var(--wid)/1254/100);
-        margin-left: calc(1450vw*var(--wid)/1254/100);
+        margin-left: calc(1400vw*var(--wid)/1254/100);
         letter-spacing: calc(2vw*var(--wid)/1254/100);
     }
         #h4 {
-            margin-left: calc(1350vw*var(--wid)/1254/100);
+            margin-left: calc(1300vw*var(--wid)/1254/100);
         }
     .jobexp h6 {
         font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
