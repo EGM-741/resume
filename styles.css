@@ -250,9 +250,11 @@ h6 {
 .jobexp {
     position: relative;
     height: calc(320vw*100 /var(--wid));
+    text-align: left;
 }
     .jobexp h2 {
         margin-bottom: calc(15vw*100 /var(--wid));
+        text-align: left;
     }
 
     .jobexp h3 {
@@ -264,13 +266,14 @@ h6 {
 }
 .job {
     position: absolute;
+    text-align: left;
     margin-top: calc(-50vw*var(--wid)/1254/100);
 }
-    .jobexp #h4 h4 {
-        font-weight: bold;
-        font-size: calc(70vw*var(--wid)/1254/100);
-        letter-spacing: calc(2vw*var(--wid)/1254/100);
-    }
+.jobexp #h4 h4 {
+    font-weight: bold;
+    font-size: calc(70vw*var(--wid)/1254/100);
+    letter-spacing: calc(2vw*var(--wid)/1254/100);
+}
     .jobexp h6 {
         font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
         line-height: 160%;
