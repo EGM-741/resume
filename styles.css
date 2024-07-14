@@ -218,16 +218,19 @@ h5 {
     text-align: left;
     font-weight: 900;
 }
+    h1.aboutme {
+        font-size: calc(120vw*var(--wid)/1254/100);
+    }
 .photo#aboutme {
     background-image: url(icons/person.png);
 }
 h6 {
-    font-size: calc(55vw*var(--wid)/1016/100);
+    font-size: calc(420vw/6*var(--wid)/1254/100);
     font-family: Raleway;
     font-weight: normal;
     margin: 0%;
     margin-bottom: calc(144vw*50 /var(--wid));
-    letter-spacing: calc(-1vw*var(--wid)/1016/100);
+    letter-spacing: calc(-1vw*var(--wid)/1254/100);
     text-align: justify;
     line-height: 170%;
 }
@@ -240,6 +243,9 @@ h6 {
 }
 .head {
     margin-bottom: calc(40vw*100 /var(--wid));
+}
+#jobexp.head {
+    margin-top: calc(120vw*100 /var(--wid));
 }
 .jobexp {
     position: relative;
@@ -254,15 +260,15 @@ h6 {
     .jobexp h4 {
         text-align: right;
         font-weight: bold;
-        font-size: calc(52vw*var(--wid)/1016/100);
+        font-size: calc(52vw*var(--wid)/1254/100);
         position: absolute;
-        margin-top: calc(-62vw*2*var(--wid)/1016/100);
-        margin-left: calc(1050vw*var(--wid)/1016/100);
+        margin-top: calc(-62vw*2*var(--wid)/1254/100);
+        margin-left: calc(1050vw*var(--wid)/1254/100);
     }
     .jobexp h6 {
-        font-size: calc(50vw*var(--wid)/1016/100);
+        font-size: calc(128vw/2*var(--wid)/1254/100);
         line-height: 160%;
-        margin-top: calc(110vw*var(--wid)/1016/100);
+        margin-top: calc(110vw*var(--wid)/1254/100);
         margin-bottom: 0%;
     }
 #ref {
@@ -277,7 +283,7 @@ h6 {
 }
 .skills h3 {
     color: black;
-    font-size: calc(40vw*var(--wid)/1016/100);
+    font-size: calc(56vw*var(--wid)/1254/100);
 }
 .skills #skill.image_place {
     border: none;
@@ -287,7 +293,6 @@ h6 {
     margin: 0%;
     display: inline-grid;
     vertical-align: middle;
-    margin-bottom: calc(0vw*100 /var(--wid));
 }
 #skillpoint {
     background-image: url("icons/skill points.png");
@@ -296,11 +301,17 @@ h6 {
 .bot {
     position: relative;
     width: 100%;
+    height: calc(500vw*100 /var(--wid));
+}
+div.lang {
+    position: absolute;
+    text-align: left;
+    font-weight: 900;
 }
 table {
     padding: 0%;
     table-layout: fixed;
-    margin-bottom: calc(80vw*var(--wid)/1016/100);
+    margin-bottom: calc(80vw*var(--wid)/1254/100);
 }
 tr {
     margin: 0%;
@@ -311,11 +322,11 @@ tr {
 td {
     margin: 0%;
     padding: 0%;
-    padding-bottom: calc(45vw*var(--wid)/1016/100);
+    padding-bottom: calc(45vw*var(--wid)/1254/100);
     vertical-align: middle;
 }
     td#label {
-        width: calc(355vw*var(--wid)/1016/100);
+        width: calc(550vw*var(--wid)/1254/100);
     }
     td#sp {
         width: contain;
@@ -325,7 +336,7 @@ td {
 }
 ul {
     list-style: url("icons/point.png") inside;
-    font-size: calc(55vw*var(--wid)/1016/100);
+    font-size: calc(70vw*var(--wid)/1254/100);
     font-family: Raleway;
     font-weight: 900;
     margin: 0%;
@@ -334,12 +345,11 @@ ul {
     float: left;
 }
 li {
-    margin-bottom: calc(60vw*var(--wid)/1016/100);
+    margin-bottom: calc(60vw*var(--wid)/1254/100);
 }
 .hobby {
     position: absolute;
-    margin-left: calc(850vw*var(--wid)/1016/100);
-    margin-top: calc(-230vw*var(--wid)/1016/100);
+    margin-left: calc(1100vw*var(--wid)/1254/100);
     text-align: left;
 }
     .hobby ul {
