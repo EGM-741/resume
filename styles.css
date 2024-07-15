@@ -292,7 +292,7 @@ h6 {
         letter-spacing: calc(2vw*var(--wid)/1254/100);
     }
     .jobexp h6 {
-        font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
+        font-size: calc(128vw/1.2/2*var(--wid)/1254/100);
         line-height: 160%;
         margin-top: calc(118vw*var(--wid)/1254/100);
         margin-bottom: 0%;
