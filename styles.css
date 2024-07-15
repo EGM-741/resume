@@ -243,6 +243,7 @@ h6 {
 }
 .jobexp table {
     padding: 0%;
+    width: 100%;
     table-layout: fixed;
     margin-bottom: calc(0vw*var(--wid)/1254/100);
 }
@@ -254,7 +255,7 @@ h6 {
         text-align: left;
     }
 
-    .jobexp table td {
+    .jobexp table td .jobexp {
         margin: 0%;
         padding: 0%;
         padding-bottom: calc(45vw*var(--wid)/1254/100);
