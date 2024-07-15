@@ -241,6 +241,25 @@ h6 {
 .jobexerience #education, .jobexerience h1 {
     margin-bottom: calc(70vw*50 /var(--wid));
 }
+.jobexp table {
+    padding: 0%;
+    table-layout: fixed;
+    margin-bottom: calc(0vw*var(--wid)/1254/100);
+}
+
+    .jobexp table tr {
+        margin: 0%;
+        padding: 0%;
+        height: calc(20vw*100 /var(--wid));
+        text-align: left;
+    }
+
+    .jobexp table td {
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: calc(45vw*var(--wid)/1254/100);
+        vertical-align: middle;
+    }
 .head {
     margin-bottom: calc(50vw*100 /var(--wid));
 }
@@ -250,11 +269,9 @@ h6 {
 .jobexp {
     position: relative;
     height: calc(320vw*100 /var(--wid));
-    text-align: left;
 }
     .jobexp h2 {
         margin-bottom: calc(15vw*100 /var(--wid));
-        text-align: left;
     }
 
     .jobexp h3 {
@@ -266,14 +283,13 @@ h6 {
 }
 .job {
     position: absolute;
-    text-align: left;
     margin-top: calc(-50vw*var(--wid)/1254/100);
 }
-.jobexp #h4 h4 {
-    font-weight: bold;
-    font-size: calc(70vw*var(--wid)/1254/100);
-    letter-spacing: calc(2vw*var(--wid)/1254/100);
-}
+    .jobexp #h4 h4 {
+        font-weight: bold;
+        font-size: calc(70vw*var(--wid)/1254/100);
+        letter-spacing: calc(2vw*var(--wid)/1254/100);
+    }
     .jobexp h6 {
         font-size: calc(128vw/1.4/2*var(--wid)/1254/100);
         line-height: 160%;
@@ -317,23 +333,23 @@ div.lang {
     text-align: left;
     font-weight: 900;
 }
-table {
+.skills table {
     padding: 0%;
     table-layout: fixed;
     margin-bottom: calc(80vw*var(--wid)/1254/100);
 }
-tr {
-    margin: 0%;
-    padding: 0%;
-    height: calc(30vw*100 /var(--wid));
-    text-align: left;
-}
-td {
-    margin: 0%;
-    padding: 0%;
-    padding-bottom: calc(45vw*var(--wid)/1254/100);
-    vertical-align: middle;
-}
+    .skills table tr {
+        margin: 0%;
+        padding: 0%;
+        height: calc(30vw*100 /var(--wid));
+        text-align: left;
+    }
+    .skills table td {
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: calc(45vw*var(--wid)/1254/100);
+        vertical-align: middle;
+    }
     td#label {
         width: calc(550vw*var(--wid)/1254/100);
     }
